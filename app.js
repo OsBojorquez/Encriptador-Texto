@@ -30,6 +30,8 @@ function encriptar() {
         texto = 'No se aceptan letras mayusculas, acentos ni caracteres especiales'
         asignarTextoElemento('salida-texto',texto)
         mostrarBtt.style.display = "none";
+        ocultar.style.display = "none";
+        mostrarTexto.style.display = "flex";
     }
 }
 
@@ -58,6 +60,8 @@ function desencriptar() {
         texto = 'No se aceptan letras mayusculas, acentos ni caracteres especiales'
         asignarTextoElemento('salida-texto',texto)
         mostrarBtt.style.display = "none";
+        ocultar.style.display = "none";
+        mostrarTexto.style.display = "flex";
     }
 }
 
